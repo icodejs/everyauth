@@ -1,6 +1,14 @@
 everyauth
 ==========
 
+## Note
+### Forked due to this issue:
+The reason behind it is the GitHub API v2 has been depreciated and now taken offline. The code in this repository has been updated to use the GitHub API V3 however it's not been pushed out in a NPM release yet.
+
+### Changes made:
+Just replace what's currently in the file {app path}/node_modules/everyauth/lib/modules/github.js with what's found at [https://github.com/bnoguchi/everyauth/blob/master/lib/modules/github.js](https://github.com/bnoguchi/everyauth/blob/master/lib/modules/github.js)
+<hr>
+
 Authentication and authorization (password, facebook, & more) for your node.js Connect and Express apps.
 
 There is a NodeTuts screencast of everyauth [here](http://nodetuts.com/tutorials/26-starting-with-everyauth.html#video)
